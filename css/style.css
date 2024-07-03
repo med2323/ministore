@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.about-us, .blog, .shop, .cart, .checkout, .single-post, .single-product, .contact-us {
+    margin: 20px 0;
+}
+
+.about-us p, .blog article, .shop .product, .cart .cart-item, .single-post p, .single-product p, .contact-us form {
+    margin-bottom: 20px;
+}
+
+.blog article h2, .shop .product h2, .cart .cart-item h2, .single-post h2, .single-product h2 {
+    font-size: 1.5em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
